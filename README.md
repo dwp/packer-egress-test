@@ -1,5 +1,7 @@
 # packer-egress-test
 Lambda to test the internet egress endpoints required by Packer
+ 
+[![Known Vulnerabilities](https://snyk.io//test/github/dwp/packer-egress-test/badge.svg?targetFile=requirements.txt)](https://snyk.io//test/github/dwp/packer-egress-test?targetFile=requirements.txt)
 
 ## Example Invocation
 First create payload file:
