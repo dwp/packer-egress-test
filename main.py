@@ -25,7 +25,7 @@ def handler(event, context):
         if response.status_code != 200:
             errors.append(f"Error connecting to {key}: {value} - status code: {response.status_code}")
         else:
-            logger.debug(f"Successfully connected to {key}: {value} - status code {response.status_code}")
+            logger.info(f"Successfully connected to {key}: {value} - status code {response.status_code}")
         if len(errors) > 0:
             logger.error(errors)
             raise Exception(f"{len(errors)} required endpoints unreachable")
