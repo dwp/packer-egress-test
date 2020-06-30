@@ -20,7 +20,7 @@ logger.info("Logging at {} level".format(log_level.upper()))
 
 def handler(event, context):
     errors = []
-    for key, value in event["required_endpoints"].items():
+    for key, value in event["required_endpoints"].items() :
         response = requests.get(value)
         if response.status_code != 200:
             errors.append(f"Error connecting to {key}: {value} - status code: {response.status_code}")
