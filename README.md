@@ -1,3 +1,5 @@
+# DO NOT USE THIS REPO - MIGRATED TO GITLAB
+
 # packer-egress-test
 Lambda to test the internet egress endpoints required by Packer
  
